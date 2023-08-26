@@ -1,0 +1,227 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Rubik:wght@300;400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(circle at center, #1f7d8e, #fbecd6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.row {
+    display: flex;
+    align-items: center;
+   /* background-color: aqua; */
+    justify-content: center;
+    /* horizontally */
+    width: 40vw;
+    /* margin: 10vh; */
+    font-size: 40px;
+    color: white;
+}
+
+.search {
+    font-size: 20px;
+    /* padding: 10px; */
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 5px grey;
+    padding: 10px 30px;
+    color: grey;
+    
+}
+
+.logo {
+    height: 2vw;
+    position: absolute;
+    top: 52.6vw;
+    left: 94vw;
+
+}
+
+.app-name {
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 2vw;
+    position: absolute;
+    top: 52.5vw;
+    left: 75vw;
+    color: grey;
+}
+
+.water-mark {
+    border: none;
+    position: absolute;
+    top: 55vw;
+    left: 75vw;
+    color: grey;
+    
+}
+
+.water-mark h2 {
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: smaller;
+}
+
+
+
+
+
+
+  
+
+/* Styles for laptops and medium-sized screens */
+@media (min-width: 800px) and (max-width: 1199px) {
+    
+.row {
+    display: flex;
+    align-items: center;
+    /* background-color: aqua; */
+    justify-content: center;
+    /* horizontally */
+    width: 50vw;
+    /* margin: 10vh; */
+    font-size: 40px;
+    color: white;
+}
+
+.search {
+    font-size: 20px;
+    /* padding: 10px; */
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 5px grey;
+    padding: 8px 27px;
+    color: grey;
+    
+}
+
+.logo {
+    height: 2vw;
+    position: absolute;
+    top: 68.5vw;
+    left: 91.5vw;
+
+}
+
+.app-name {
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 2.5vw;
+    position: absolute;
+    top: 68vw;
+    left: 68vw;
+    color: grey;
+}
+
+.water-mark {
+    border: none;
+    position: absolute;
+    top: 71vw;
+    left: 68vw;
+    color: grey;
+    
+}
+
+.water-mark h2 {
+    font-family: Rubik;
+    font-weight: 430;
+    font-size: smaller;
+}
+  }
+
+  
+  /* Styles for smartphones */
+  @media (max-width: 600px) {
+    /* Your styles here */
+  .row {
+    display: flex;
+    align-items: center;
+    /* background-color: aqua; */
+    justify-content: center;
+    /* horizontally */
+    width: 60vw;
+    height: 7vh;
+    /* margin: 10vh; */
+    font-size: 40px;
+    color: white;
+}
+
+.row h2 {
+    font-size: medium;
+    margin-top: 1vh;
+}
+
+.row img {
+    height: 8vh;
+    margin-top: 1vh;
+}
+
+.row h4 {
+    font-size: medium;
+}
+
+
+.search {
+    font-size: 15px;
+    /* padding: 10px; */
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 5px grey;
+    padding: 10px 30px;
+    color: grey;
+    
+}
+
+.logo {
+    height: 4vw;
+    position: absolute;
+    top: 92vh;
+    left: 87vw;
+
+}
+
+.app-name {
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 4vw;
+    position: absolute;
+    top: 92vh;
+    left: 48vw;
+    color: grey;
+}
+
+.water-mark {
+    border: none;
+    position: absolute;
+    top: 95vh;
+    left: 38vw;
+    width: 62vw;
+    padding-left: 10vw;
+    color: grey;
+    
+}
+
+.water-mark h2 {
+    font-family: Rubik;
+    font-weight: 410;
+    font-size: smaller;
+}
+
+
+  }
